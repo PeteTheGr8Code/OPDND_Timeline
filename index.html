@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OPDND World Timeline — The Long Thread</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&family=Special+Elite&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Absolute Year -7 &nbsp;—&nbsp; Absolute Year 471</div>
+  <h1>The OPDND World Timeline</h1>
+  <p class="sub">Every pin marks a year. Every card hides a report. Somewhere in this thread <b>one truth was buried</b> for four hundred years — click through to find it.</p>
+</header>
+
+<nav id="nav"></nav>
+
+<div id="gate-slot"></div>
+
+<div class="spine-wrap" id="spine"></div>
+
+<footer>Tap a card to flip it · Tap the small circle to pin your own image to a card · The thread runs -7 → 471</footer>
+
+<!-- Data files: must load before render-cards.js / render-timeline.js -->
+<script src="js/data/eras-meta.js"></script>
+<script src="js/data/era-1-fall-of-mythos.js"></script>
+<script src="js/data/era-2-exile-gygia.js"></script>
+<script src="js/data/era-3-age-of-asteroids.js"></script>
+<script src="js/data/era-4-long-wandering.js"></script>
+<script src="js/data/era-5-kept-secret.js"></script>
+<script src="js/data/era-6-campaign.js"></script>
+
+<!-- Render/behavior modules <script src="js/gate.js"></script>-->
+<script src="js/render-cards.js"></script>
+<script src="js/render-timeline.js"></script>
+
+
+<!-- Boots everything above, must load last -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
